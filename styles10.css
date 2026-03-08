@@ -1,0 +1,146 @@
+*{
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+}
+
+header{
+        margin-top: 47px;
+        margin-left: 42px ;
+}
+
+.link-header{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #17233D;
+        cursor: pointer;
+        margin-right: 15px;
+        text-align: center;
+        letter-spacing: 0.875px;
+        margin-right: 32px;
+}
+
+.button{
+        background: #6FBF44;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        width: 124px;
+        height: 51px;
+        border: none;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+        letter-spacing: 1px;
+    
+}
+
+.img-main{
+        width:596px;
+        height:501px;
+        display: inline-block;
+        margin-left: 121px;
+        margin-top: 163px;
+   
+
+}
+
+section{
+        display: inline-block;
+        margin-left: 85px;
+        width:493px;
+
+}   
+
+h1 {
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        color: #161A49;
+        letter-spacing: 0.596154px;
+    
+}
+
+#testo{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin: 47px 0 55px 0;
+
+}
+
+
+#paragrafo{
+        width: 112px;
+        height: 27px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+        cursor: pointer;
+        background: transparent;
+        border: none;    
+}
+
+button:hover {
+        opacity: .9;
+}
+
+@media screen and (max-width: 735px){
+        *{
+                margin: 0;
+                padding: 0;
+                width: auto;
+                height: auto;
+        
+        }
+        .link-header{
+                display: none;
+    }
+
+    .img-main{
+        position: absolute;
+        top: 65%;
+        max-width: 98%;
+        max-height: 90%;
+    }
+    header{
+        margin-left: 20px;
+    }
+    .button{
+        position:relative;
+        left: 420px;
+    }
+
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.596154px;
+        text-align: center;
+        width: 278px;
+        margin: 50px 70px 23px 70px;
+    }
+
+    #testo{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 278px;
+        margin: 50px 86px 23px 86px;
+    }
+    #paragrafo{
+        position: static;
+        margin: 100px 150px 23px 150px;
+    }
+}
